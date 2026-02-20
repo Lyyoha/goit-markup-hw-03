@@ -38,7 +38,7 @@ a {
 .social-links .nav-link:focus {
         color: #404BBF;
 }
-.addres .addres-1 {
+.addres .addres-one {
     font-weight: 400;
         font-size: 16px;
         /* line-height: 24px; */
@@ -46,8 +46,8 @@ a {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.addres .addres-1:hover,
-.addres .addres-1:focus {
+.addres .addres-one:hover,
+.addres .addres-one:focus {
         color: #404BBF;
 }
 .main-page {
@@ -118,7 +118,7 @@ footer .logo {font-weight: 700;
     font-size: 18px;
 
     /* line-height: 21px; */
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
