@@ -45,6 +45,9 @@ img {
     display: flex;
     justify-content: space-between;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .logo {
     display: block;
         padding: 24px 0;
@@ -90,6 +93,7 @@ a {
 }
 .nav-list {
     display: flex;
+    align-items: center
 }
 .address-list-link {
         display: block;
@@ -152,14 +156,17 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 24px;
 }
-.our-advantages-item .title-three {
-    margin-bottom: 8px;
-    margin-right: 24px;
+.our-advantages-item:first-child {
+    width: calc((100% - 72px) / 4);
 }
-.our-advantages-item .text {
-    margin-right: 24px;
+.our-advantages-item:last-child {
+    margin-right: 0;
 }
+ .our-advantages-item .title-three {
+     margin-bottom: 8px
+ }
 .portfolio-thumb {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
@@ -196,7 +203,6 @@ footer {
 .our-team {
     background: #F4F4FD;
 }
-
 .our-team-item {
     background-color: #ffffff;
 }
@@ -207,13 +213,20 @@ footer {
     gap: 24px;
 }
 .our-team-text {
-    padding: 32px 16px;
+    padding: 32px 0px;
         border-bottom: 1px solid #e7e9fc;
         border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
+        border-radius: 0 0 4px 4px;
+        text-align: center;
+
 }
 .our-team-title {
     margin-bottom: 72px;
+    text-align: center;
+}
+.our-portfolio {
+    margin-bottom: 8px;
 }
 .our-portfolio-title {
     margin: 72px;
@@ -224,14 +237,14 @@ footer {
     gap: 48px 24px;
 }
 .footer {
-    padding: 120px 0;
+    padding: 100px 0;
 }
 .footer-list {
     display: flex;
     justify-content: flex-start;
 }
 .footer-logo {
-    display: block;
+    display: inline-block;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
@@ -251,7 +264,6 @@ footer {
 }
 .footer-text {font-weight: 400;
     max-width: 264px;
-    height: 72px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
